@@ -1,0 +1,78 @@
+* {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top:10em;
+    background-image: url('email.png');
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;   
+}
+main{
+   width:80%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.dial {
+    height: 380px;
+    width: 355px;
+  }
+    
+  .timer {
+    position: relative;
+    display: inline-block;
+  }
+   
+  .timer input {
+    display: block;
+    border: none;
+    width: 235px;
+    font-size: 85px;
+    text-align: center;
+  }
+  
+  .timer button {
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 0.2rem;
+    background-color: transparent;
+    color: #506D84;
+    text-align: center;
+  }
+  
+  .timer button:focus {
+    outline: none;
+  }
+  
+  .timer input{
+    background-color: transparent;
+    color: #506D84;
+  }
+
+  .timer input:focus {
+    outline: none;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
